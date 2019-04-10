@@ -30,6 +30,18 @@ public class Property {
 		return Boolean.valueOf(getString());
 	}
 
+	public int getInt() {
+		return Integer.valueOf(getString());
+	}
+
+	public Long getLong() {
+		return Long.valueOf(getString());
+	}
+
+	public Double getDouble() {
+		return Double.valueOf(getString());
+	}
+
 	@Override
 	public String toString() {
 		return getString();
